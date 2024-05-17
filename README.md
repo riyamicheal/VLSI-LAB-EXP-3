@@ -29,14 +29,7 @@ STEP:7 compare the output with truth table
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-**4 Bit Multiplier**
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
-
-# Verilog code
-
-# 2 Bit Multiplier
+# Verilog code:
 
 module ha(a,b,sum,c);
 
@@ -66,7 +59,16 @@ ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
 
-# 4 Bit Multiplier
+# Output:
+
+![image](https://github.com/riyamicheal/VLSI-LAB-EXP-3/assets/124061774/59a0d359-7fef-48a5-9915-c732f0556a29)
+
+**4 Bit Multiplier**
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
+
+# Verilog code:
+
 
 module ha(a,b,c,s);
 
@@ -136,13 +138,7 @@ fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 
 endmodule
 
-**Output Waveform**
-
-# 2 Bit Multiplier
-
-![image](https://github.com/riyamicheal/VLSI-LAB-EXP-3/assets/124061774/59a0d359-7fef-48a5-9915-c732f0556a29)
-
-# 4 Bit Multiplier
+# Output:
 
 ![image](https://github.com/riyamicheal/VLSI-LAB-EXP-3/assets/124061774/c15457ce-20ec-4630-8b2a-88cf9b52f8cb)
 
